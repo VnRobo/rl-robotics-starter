@@ -129,7 +129,7 @@ def main():
     # VnRobo callback
     callbacks = [checkpoint_cb, eval_cb]
     if vnrobo_agent:
-        from scripts.vnrobo_callback import VnRoboCallback
+        from scripts.vnrobo_callback import VnRoboCallback  # noqa: PLC0415
         callbacks.append(VnRoboCallback(vnrobo_agent, args.robot))
 
     # Train

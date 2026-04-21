@@ -1,0 +1,16 @@
+robot: h1
+algo: ppo
+timesteps: 3_000_000
+n_envs: 8
+seed: 42
+save_dir: ./checkpoints
+
+ppo:
+  n_steps: 4096
+  batch_size: 128
+  n_epochs: 10
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: 0.2
+  ent_coef: 0.005
+  learning_rate: 1.0e-4
