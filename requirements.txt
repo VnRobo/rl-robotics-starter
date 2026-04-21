@@ -1,0 +1,5 @@
+mujoco>=3.0
+gymnasium>=0.29
+stable-baselines3[extra]>=2.3
+numpy>=1.21
+vnrobo-agent>=0.1.1   # optional — for training monitoring

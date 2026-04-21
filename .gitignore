@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Checkpoints & logs
+checkpoints/
+runs/
+*.zip
+*.pkl
+
+# MuJoCo model cache
+~/.cache/vnrobo_rl/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env
+.env
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
